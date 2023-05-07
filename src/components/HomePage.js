@@ -19,6 +19,7 @@ import python from "../images/python.svg";
 import django from "../images/django.svg";
 import postgres from "../images/postgresql.svg";
 import docker from "../images/docker.svg";
+import ec2 from "../images/ec2.svg";
 import codepipeline from "../images/codepipeline.svg";
 import cloudformation from "../images/cloudformation.svg";
 import node from "../images/node.svg";
@@ -187,11 +188,21 @@ export default function HomePage() {
                 <Typography fontSize={22} sx={{ textDecoration: "underline" }}>
                   Deployment:
                 </Typography>
-                <Stack flexDirection="row">
-                  <Icon>
-                    <img src={docker} height="100%" width="100%" />
-                  </Icon>
-                  <Typography fontSize={20}>Docker</Typography>
+                <Stack spacing={1}>
+                  <Stack flexDirection="row">
+                    <Icon>
+                      <img src={docker} height="100%" width="100%" />
+                    </Icon>
+                    <Typography fontSize={20}>Docker</Typography>
+                  </Stack>
+                  <Stack flexDirection="row">
+                    <Icon>
+                      <img src={ec2} height="100%" width="100%" />
+                    </Icon>
+                    <Typography fontSize={18}>
+                      AWS Elastic Compute Cloud
+                    </Typography>
+                  </Stack>
                 </Stack>
               </Box>
               <Box
