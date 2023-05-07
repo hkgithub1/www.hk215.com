@@ -70,7 +70,7 @@ export default function HomePage() {
           backgroundRepeat: "repeat-y",
         }}
       >
-        <Typography fontSize={22} fontWeight="bold" sx={{ pl: 1 }}>
+        <Typography fontSize={24} fontWeight="bold" sx={{ pl: 1 }}>
           Projects:
         </Typography>
         <Grid container display="flex" flexDirection="row">
@@ -128,14 +128,14 @@ export default function HomePage() {
                   width: "16.6%",
                 }}
               >
-                <Typography fontSize={20} sx={{ textDecoration: "underline" }}>
+                <Typography fontSize={22} sx={{ textDecoration: "underline" }}>
                   Frontend:
                 </Typography>
                 <Stack flexDirection="row">
                   <Icon>
                     <img src={react} height="100%" width="100%" />
                   </Icon>
-                  <Typography>React</Typography>
+                  <Typography fontSize={20}>React</Typography>
                 </Stack>
               </Box>
               <Box
@@ -144,7 +144,7 @@ export default function HomePage() {
                   width: "16.6%",
                 }}
               >
-                <Typography fontSize={20} sx={{ textDecoration: "underline" }}>
+                <Typography fontSize={22} sx={{ textDecoration: "underline" }}>
                   Backend:
                 </Typography>
                 <Stack spacing={1}>
@@ -152,13 +152,13 @@ export default function HomePage() {
                     <Icon>
                       <img src={python} height="100%" width="100%" />
                     </Icon>
-                    <Typography>Python</Typography>
+                    <Typography fontSize={20}>Python</Typography>
                   </Stack>
                   <Stack flexDirection="row">
                     <Icon>
                       <img src={django} height="100%" width="100%" />
                     </Icon>
-                    <Typography>Django</Typography>
+                    <Typography fontSize={20}>Django</Typography>
                   </Stack>
                 </Stack>
               </Box>
@@ -168,14 +168,14 @@ export default function HomePage() {
                   width: "16.6%",
                 }}
               >
-                <Typography fontSize={20} sx={{ textDecoration: "underline" }}>
+                <Typography fontSize={22} sx={{ textDecoration: "underline" }}>
                   Database:
                 </Typography>
                 <Stack flexDirection="row">
                   <Icon>
                     <img src={postgres} height="100%" width="100%" />
                   </Icon>
-                  <Typography>PostgreSQL</Typography>
+                  <Typography fontSize={20}>PostgreSQL</Typography>
                 </Stack>
               </Box>
               <Box
@@ -184,14 +184,14 @@ export default function HomePage() {
                   width: "16.6%",
                 }}
               >
-                <Typography fontSize={20} sx={{ textDecoration: "underline" }}>
+                <Typography fontSize={22} sx={{ textDecoration: "underline" }}>
                   Deployment:
                 </Typography>
                 <Stack flexDirection="row">
                   <Icon>
                     <img src={docker} height="100%" width="100%" />
                   </Icon>
-                  <Typography>Docker</Typography>
+                  <Typography fontSize={20}>Docker</Typography>
                 </Stack>
               </Box>
               <Box
@@ -200,14 +200,14 @@ export default function HomePage() {
                   width: "16.6%",
                 }}
               >
-                <Typography fontSize={20} sx={{ textDecoration: "underline" }}>
+                <Typography fontSize={22} sx={{ textDecoration: "underline" }}>
                   CI/CD:
                 </Typography>
                 <Stack flexDirection="row">
                   <Icon>
                     <img src={codepipeline} height="100%" width="100%" />
                   </Icon>
-                  <Typography fontSize={14}>AWS CodePipeline</Typography>
+                  <Typography fontSize={18}>AWS CodePipeline</Typography>
                 </Stack>
               </Box>
               <Box
@@ -216,14 +216,14 @@ export default function HomePage() {
                   width: "16.6%",
                 }}
               >
-                <Typography fontSize={20} sx={{ textDecoration: "underline" }}>
+                <Typography fontSize={22} sx={{ textDecoration: "underline" }}>
                   IaC:
                 </Typography>
                 <Stack flexDirection="row">
                   <Icon>
                     <img src={cloudformation} height="100%" width="100%" />
                   </Icon>
-                  <Typography fontSize={14}>AWS CloudFormation</Typography>
+                  <Typography fontSize={18}>AWS CloudFormation</Typography>
                 </Stack>
               </Box>
             </Stack>
@@ -282,14 +282,14 @@ export default function HomePage() {
                   width: "16.6%",
                 }}
               >
-                <Typography fontSize={20} sx={{ textDecoration: "underline" }}>
+                <Typography fontSize={22} sx={{ textDecoration: "underline" }}>
                   Frontend:
                 </Typography>
                 <Stack flexDirection="row">
                   <Icon>
                     <img src={react} height="100%" width="100%" />
                   </Icon>
-                  <Typography>React</Typography>
+                  <Typography fontSize={20}>React</Typography>
                 </Stack>
               </Box>
               <Box
@@ -298,14 +298,14 @@ export default function HomePage() {
                   width: "16.6%",
                 }}
               >
-                <Typography fontSize={20} sx={{ textDecoration: "underline" }}>
+                <Typography fontSize={22} sx={{ textDecoration: "underline" }}>
                   Backend:
                 </Typography>
                 <Stack flexDirection="row">
                   <Icon>
                     <img src={node} height="100%" width="100%" />
                   </Icon>
-                  <Typography>Node JS</Typography>
+                  <Typography fontSize={20}>Node JS</Typography>
                 </Stack>
               </Box>
               <Box
@@ -314,14 +314,14 @@ export default function HomePage() {
                   width: "16.6%",
                 }}
               >
-                <Typography fontSize={20} sx={{ textDecoration: "underline" }}>
+                <Typography fontSize={22} sx={{ textDecoration: "underline" }}>
                   Database:
                 </Typography>
                 <Stack flexDirection="row">
                   <Icon>
                     <img src={dynamo} height="100%" width="100%" />
                   </Icon>
-                  <Typography fontSize={14}>AWS DynamoDB</Typography>
+                  <Typography fontSize={18}>AWS DynamoDB</Typography>
                 </Stack>
               </Box>
               <Box
@@ -330,7 +330,7 @@ export default function HomePage() {
                   width: "16.6%",
                 }}
               >
-                <Typography fontSize={20} sx={{ textDecoration: "underline" }}>
+                <Typography fontSize={22} sx={{ textDecoration: "underline" }}>
                   Deployment:
                 </Typography>
                 <Stack spacing={1}>
@@ -338,13 +338,13 @@ export default function HomePage() {
                     <Icon>
                       <img src={docker} height="100%" width="100%" />
                     </Icon>
-                    <Typography>Docker</Typography>
+                    <Typography fontSize={20}>Docker</Typography>
                   </Stack>
                   <Stack flexDirection="row">
                     <Icon>
                       <img src={gke} height="100%" width="100%" />
                     </Icon>
-                    <Typography fontSize={14}>
+                    <Typography fontSize={18}>
                       Google Kubernetes Engine
                     </Typography>
                   </Stack>
@@ -356,14 +356,14 @@ export default function HomePage() {
                   width: "16.6%",
                 }}
               >
-                <Typography fontSize={20} sx={{ textDecoration: "underline" }}>
+                <Typography fontSize={22} sx={{ textDecoration: "underline" }}>
                   CI/CD:
                 </Typography>
                 <Stack flexDirection="row">
                   <Icon>
                     <img src={gitlab} height="100%" width="100%" />
                   </Icon>
-                  <Typography>GitLab</Typography>
+                  <Typography fontSize={20}>GitLab</Typography>
                 </Stack>
               </Box>
               <Box
@@ -372,14 +372,14 @@ export default function HomePage() {
                   width: "16.6%",
                 }}
               >
-                <Typography fontSize={20} sx={{ textDecoration: "underline" }}>
+                <Typography fontSize={22} sx={{ textDecoration: "underline" }}>
                   IaC:
                 </Typography>
                 <Stack flexDirection="row">
                   <Icon>
                     <img src={terraform} height="100%" width="100%" />
                   </Icon>
-                  <Typography>TerraForm</Typography>
+                  <Typography fontSize={20}>TerraForm</Typography>
                 </Stack>
               </Box>
             </Stack>
@@ -438,14 +438,14 @@ export default function HomePage() {
                   width: "16.6%",
                 }}
               >
-                <Typography fontSize={20} sx={{ textDecoration: "underline" }}>
+                <Typography fontSize={22} sx={{ textDecoration: "underline" }}>
                   Frontend:
                 </Typography>
                 <Stack flexDirection="row">
                   <Icon>
                     <img src={react} height="100%" width="100%" />
                   </Icon>
-                  <Typography>React</Typography>
+                  <Typography fontSize={20}>React</Typography>
                 </Stack>
               </Box>
               <Box
@@ -454,14 +454,14 @@ export default function HomePage() {
                   width: "16.6%",
                 }}
               >
-                <Typography fontSize={20} sx={{ textDecoration: "underline" }}>
+                <Typography fontSize={22} sx={{ textDecoration: "underline" }}>
                   Deployment:
                 </Typography>
                 <Stack flexDirection="row">
                   <Icon>
                     <img src={azure} width="100%" />
                   </Icon>
-                  <Typography fontSize={14}>Microsoft Azure Storage</Typography>
+                  <Typography fontSize={18}>Microsoft Azure Storage</Typography>
                 </Stack>
               </Box>
             </Stack>
@@ -525,14 +525,14 @@ export default function HomePage() {
                   width: "16.6%",
                 }}
               >
-                <Typography fontSize={20} sx={{ textDecoration: "underline" }}>
+                <Typography fontSize={22} sx={{ textDecoration: "underline" }}>
                   Frontend:
                 </Typography>
                 <Stack flexDirection="row">
                   <Icon>
                     <img src={react} height="100%" />
                   </Icon>
-                  <Typography>React</Typography>
+                  <Typography fontSize={20}>React</Typography>
                 </Stack>
               </Box>
               <Box
@@ -541,7 +541,7 @@ export default function HomePage() {
                   width: "16.6%",
                 }}
               >
-                <Typography fontSize={20} sx={{ textDecoration: "underline" }}>
+                <Typography fontSize={22} sx={{ textDecoration: "underline" }}>
                   Backend:
                 </Typography>
                 <Stack spacing={1}>
@@ -549,13 +549,13 @@ export default function HomePage() {
                     <Icon>
                       <img src={node} height="100%" />
                     </Icon>
-                    <Typography>Node JS</Typography>
+                    <Typography fontSize={20}>Node JS</Typography>
                   </Stack>
                   <Stack flexDirection="row">
                     <Icon>
                       <img src={lambda} height="100%" />
                     </Icon>
-                    <Typography>AWS Lambda</Typography>
+                    <Typography fontSize={20}>AWS Lambda</Typography>
                   </Stack>
                 </Stack>
               </Box>
@@ -565,14 +565,14 @@ export default function HomePage() {
                   width: "16.6%",
                 }}
               >
-                <Typography fontSize={20} sx={{ textDecoration: "underline" }}>
+                <Typography fontSize={22} sx={{ textDecoration: "underline" }}>
                   Database:
                 </Typography>
                 <Stack flexDirection="row">
                   <Icon>
                     <img src={dynamo} height="100%" />
                   </Icon>
-                  <Typography fontSize={14}>AWS DynamoDB</Typography>
+                  <Typography fontSize={18}>AWS DynamoDB</Typography>
                 </Stack>
               </Box>
               <Box
@@ -581,21 +581,21 @@ export default function HomePage() {
                   width: "16.6%",
                 }}
               >
-                <Typography fontSize={20} sx={{ textDecoration: "underline" }}>
+                <Typography fontSize={22} sx={{ textDecoration: "underline" }}>
                   Deployment:
                 </Typography>
                 <Stack flexDirection="row">
                   <Icon>
                     <img src={s3} height="100%" />
                   </Icon>
-                  <Typography>AWS S3</Typography>
+                  <Typography fontSize={20}>AWS S3</Typography>
                 </Stack>
               </Box>
             </Stack>
           </Grid>
         </Grid>
         <Divider sx={{ bgcolor: "background.secondary" }} />
-        <Typography fontSize={22} fontWeight="bold" sx={{ pl: 1 }}>
+        <Typography fontSize={24} fontWeight="bold" sx={{ pl: 1 }}>
           Certifications:
         </Typography>
         <Grid
